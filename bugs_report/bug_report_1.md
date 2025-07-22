@@ -46,7 +46,6 @@ This violates **role-based access control (RBAC)**, enabling unauthorized access
 **P1 - Immediate Fix Needed**
 
 ## 📸 Video Proof
-(Screenshots to be attached from actual run: e.g., referral dashboard as viewed by a Talent user.)
 [Watch the video proof](https://drive.google.com/file/d/1IfXnC1hpTIqnKJGZJe0_8iaDbnNyPakh/view?usp=sharing)
 
 ## 🧰 Suggested Fix
