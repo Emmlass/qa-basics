@@ -1,0 +1,48 @@
+# Bondex QA Assignment – Test Strategy Summary
+
+## 1. Objective
+To verify the usability, functionality and navigation flow of the Bondex web platform across its different user roles: Company, Recruiter and Talent. This ensures users experience seamless access to features and routes with no broken links, unexpected behaviors or UX flaws.
+
+## 2. Testing Approach
+
+### a. Manual Testing
+ Role-based functional testing of Company, Recruiter and Talent users.
+ Navigation verification across all routes and sub-pages.
+ Button and link behavior checks.
+ Wallet and profile management feature testing.
+ Consistency of notification systems.
+ Form validation for sign-up, log-in, and settings pages.
+
+### b. Exploratory Testing
+ Unscripted testing of each user journey to discover hidden bugs or inconsistencies.
+ Focused on edge cases (e.g., switching roles, incomplete profile, wallet not connected, etc.)
+
+## 3. Test Coverage Areas
+ Sign Up & Onboarding
+ Navigation & Redirects
+ Profile Management
+ Referral Pages
+ Applications Dashboard
+ Account Settings (Wallet, Job Alerts)
+ Notifications Modal
+ Button/Link Behavior
+ Role Switching (Recruiter <-> Talent)
+
+## 4. Devices and Browsers Used
+ Android mobile Chrome browser
+ Desktop view (via dev tools)
+
+## 5. Known Issues
+ Talent user sees referral link redirect to `/recruiter/referrals` (potential role inconsistency).
+ Company user dashboard does not display Wallet Connect button (missing feature).
+ Recruiter/Talent have access to edit roles without apparent access restrictions or confirmation.
+
+## 6. Tools Used
+ Manual testing in browser
+ Markdown documentation
+ Screenshot capture tools
+
+## 7. Suggested Improvements
+ Enforce strict role separation for route access and permissions.
+ Add Wallet Connect for Company users.
+ Clarify expected redirect behavior for referral links depending on role.
